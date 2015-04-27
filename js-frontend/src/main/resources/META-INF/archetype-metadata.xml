@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="Q2786966">
+  <fileSets>
+    <fileSet filtered="true" packaged="true">
+      <directory>src/main/javascript</directory>
+      <includes>
+        <include>**/*.js</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>src/test/javascript</directory>
+      <includes>
+        <include>**/*.js</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>helper-scripts</directory>
+      <includes>
+        <include>**/*</include>
+      </includes>
+    </fileSet>
+    
+  </fileSets>
+</archetype-descriptor>
