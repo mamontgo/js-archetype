@@ -7,17 +7,24 @@
         <include>**/*.js</include>
       </includes>
     </fileSet>
-    <fileSet>
+    <fileSet filtered="true" packaged="true">
       <directory>src/test/javascript</directory>
       <includes>
         <include>**/*.js</include>
       </includes>
     </fileSet>
-    <fileSet>
+    <fileSet filtered="true" packaged="true">
       <directory>helper-scripts</directory>
       <includes>
         <include>**/*</include>
-      </includes>
+      </includes>      
+    </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>/</directory>
+      <includes>
+        <include>*.json</include>
+        <include>*.js</include>
+      </includes>      
     </fileSet>
     
   </fileSets>
