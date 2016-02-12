@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archetype-descriptor name="Q2786966">
+<archetype-descriptor name="jsquickstart">
   <fileSets>
     <fileSet filtered="true" packaged="true">
       <directory>src/main/javascript</directory>
@@ -7,13 +7,13 @@
         <include>**/*.js</include>
       </includes>
     </fileSet>
-    <fileSet filtered="true" packaged="true">
+    <fileSet>
       <directory>src/test/javascript</directory>
       <includes>
         <include>**/*.js</include>
       </includes>
     </fileSet>
-    <fileSet filtered="true" packaged="true">
+    <fileSet>
       <directory>helper-scripts</directory>
       <includes>
         <include>**/*</include>
