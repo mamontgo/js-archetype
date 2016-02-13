@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archetype-descriptor name="jsquickstart">
   <fileSets>
-    <fileSet filtered="true" packaged="true">
+    <fileSet filtered="true" packaged="false">
       <directory>src/main/javascript</directory>
       <includes>
         <include>**/*.js</include>
       </includes>
     </fileSet>
-    <fileSet filtered="true" packaged="true">
+    <fileSet filtered="true" packaged="false">
       <directory>src/test/javascript</directory>
       <includes>
         <include>**/*.js</include>
       </includes>
     </fileSet>
-    <fileSet filtered="true" packaged="true">
+    <fileSet filtered="true" packaged="v">
       <directory>helper-scripts</directory>
       <includes>
         <include>**/*</include>
       </includes>      
     </fileSet>
-    <fileSet filtered="true" packaged="true">
-      <directory>/</directory>
+    <fileSet filtered="true" packaged="false">
+      <directory/>
       <includes>
-        <include>*.json</include>
-        <include>*.js</include>
+        <include>bower.json</include>
+        <include>Gruntfile.js</include>
+        <include>package.json</include>
       </includes>      
     </fileSet>
     
